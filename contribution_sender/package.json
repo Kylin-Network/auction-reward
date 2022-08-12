@@ -1,0 +1,28 @@
+{
+  "name": "contributor-inserter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "contribution-inserter": "ts-node 'contribution_inserter.ts'",
+    "sender": "ts-node 'sender.ts'"
+  },
+  "dependencies": {
+    "@polkadot/api": "^6.6.1",
+    "@polkadot/types": "^6.6.1",
+    "@types/yargs": "^17.0.0",
+    "decimal.js": "^10.3.1",
+    "divide-bigint": "1.0.4",
+    "exceljs": "4.2.1",
+    "load-json-file": "^6.2.0",
+    "node-fetch": "2.6.1",
+    "npm-watch": "^0.9.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4",
+    "write-json-file": "^4.3.0",
+    "yargs": "^17.0.1"
+  }
+}
